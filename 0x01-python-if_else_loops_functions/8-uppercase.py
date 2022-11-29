@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-def uppercase(str):
-    for c in str:
-        if ord('a') <= ord(c) <= ord('z'):
-            c = chr(ord(c) - (ord('a') - ord('A')))
-        print("{:s}".format(c), end='')
-    print("")
+# Author - Tolulope Fakunle
+
+def print_last_digit(number):
+    print(abs(number) % 10, end="")
+    return (abs(number) % 10)
